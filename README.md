@@ -24,15 +24,27 @@ python zed_display.py
 ## super_resolution
 기존의 ESPCN 모델을 본 과제에 맞추어 reimplementation 한 파일
 
-
-#### Download datasets
-- Contains DIV2K, DIV8K, Flickr2K, OST, T91, Set5, Set14, BSDS100 and BSDS200, etc.
-
-[Google Driver](https://drive.google.com/drive/folders/1A6lzGeQrFMxPqJehK9s37ce-tPDj20mD?usp=sharing)
-[Baidu Driver](https://pan.baidu.com/s/1o-8Ty_7q6DiS3ykLU09IVg?pwd=llot)
+- run the train code 
+```bash
+python train.py
+```
 
 
-#### Download original code
-[https://github.com/Lornatang/ESPCN-PyTorch]
+- Download datasets
+    Contains DIV2K, DIV8K, Flickr2K, OST, T91, Set5, Set14, BSDS100 and BSDS200, etc.
+
+--[Google Driver](https://drive.google.com/drive/folders/1A6lzGeQrFMxPqJehK9s37ce-tPDj20mD?usp=sharing)
+--[Baidu Driver](https://pan.baidu.com/s/1o-8Ty_7q6DiS3ykLU09IVg?pwd=llot)
+    /data 폴더로 옮겨 학습에 사용
+
+- Process dataset
+    학습을 위해 데이터셋을 패치화시키는 과정 필요
+   
+```bash
+python scripts/run.py
+```
+
+-  Download original code
+    [https://github.com/Lornatang/ESPCN-PyTorch]
 
 
