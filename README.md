@@ -2,7 +2,7 @@
 
 
 
-## posco_zed_display
+## posco_zed_display [Main 코드]
 
 jetson에서 zed 카메라 영상 실행 및 각종 이미지 처리[SR 적용, CLAHE 등]와 관련된 파일
 
@@ -21,12 +21,10 @@ python zed_display.py
 
 
 
-## super_resolution
-기존의 ESPCN 모델을 본 과제에 맞추어 reimplementation 한 파일
+## super_resolution [추가 학습 시 사용]
 
 
-
-- Download datasets (/data 폴더로 옮겨 학습에 사용)
+1. Download datasets (/data 폴더로 옮겨 학습에 사용)
 
     Contains DIV2K, DIV8K, Flickr2K, OST, T91, Set5, Set14, BSDS100 and BSDS200, etc.
 
@@ -36,20 +34,20 @@ python zed_display.py
     
     
 
-- Process dataset
+2. Process dataset
     학습을 위해 데이터셋을 패치화시키는 과정 필요
    
 ```bash
 python scripts/run.py
 ```
 
-- run the train code 
+3. run the train code 
 ```bash
 python train.py
 ```
 
 
--  Download original code
-    [https://github.com/Lornatang/ESPCN-PyTorch]
+-  참고
+    Download original code [https://github.com/Lornatang/ESPCN-PyTorch]
 
 

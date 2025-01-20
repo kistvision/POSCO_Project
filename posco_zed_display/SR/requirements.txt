@@ -1,7 +1,0 @@
-opencv-python
-numpy
-tqdm
-torch
-setuptools
-torchvision
-natsort
