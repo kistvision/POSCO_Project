@@ -1,25 +1,3 @@
-# ============================================
-# File Name    : zed_display.py
-# Author       : Sung Jun Kim
-# Institution  : 한국과학기술연구원
-# Email        : sungjun4257@kist.re.kr
-# Created Date : 24.05.21
-# Last Updated : 25.01.09
-# Version      : 1.0
-# 
-# Purpose      : zed 카메라로부터 영상을 받아, 영상처리 및 시각화
-#               
-#
-# Environment  :   Python 
-#                - OpenCV 
-#                - NumPy
-#
-# Revision Log :
-#    - 
-#
-# ============================================
-
-
 import sys
 import pyzed.sl as sl
 import numpy as np

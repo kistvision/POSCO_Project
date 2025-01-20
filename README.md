@@ -13,13 +13,36 @@ python zed_display.py
 
 - key board command
 
-    l키 -> clahe 적용
+   
+    ESC키 → 프로그램 종료
 
-    j키 -> 영상 centercrop
+    t키 → 영상 상하 offset 조정 (왼쪽 위, 오른쪽 아래로 이동)
 
-    k키 -> SR 적용
+    b키 → 영상 상하 offset 조정 (왼쪽 아래로, 오른쪽 위로 이동)
+    
+    q키 → 카메라 노출 값 증가
+    
+    a키 → 카메라 자동 노출 모드
+    
+    z키 → 카메라 노출 값 감소
 
+    e키 → 카메라 gain 값 증가
+    
+    d키 → 카메라 자동 gain 모드
+    
+    c키 → 카메라 gain 값 감소
+    
+    l키 → CLAHE 적용
+    
+    j키 → 영상 center crop
+    
+    k키 → SR 적용 (center crop 적용 후 SR 적용 가능)
 
+    1키 → 왼쪽 카메라 디스플레이
+    
+    2키 → 사이드바이사이드 영상 디스플레이
+    
+    3키 → 오른쪽 카메라 디스플레이
 
 ## super_resolution [추가 학습 시 사용]
 
